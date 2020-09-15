@@ -1,7 +1,7 @@
 /* Lab Exercise 2 */
 
 let account = {
-    Name : "JoshuaSandag",
+    name : "Joshua Sandag",
     Expenses: [],
     addExpenses: function(description, amount){
         this.Expenses.push({"description": description, "amount": amount});
@@ -16,4 +16,5 @@ let account = {
 };
 account.addExpenses('Beli kameja', 100000);
 account.addExpenses('Beli celana jeans', 200000);
-console.log("Total pengeluaran " + name + "adalah Rp." + account.getAccountSummary());
+account.name;
+console.log("Total pengeluaran " + account.name + " adalah Rp." + account.getAccountSummary());
