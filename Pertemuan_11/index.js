@@ -30,6 +30,17 @@ const jenisAnjing2 = () =>
   }
   console.log(namaJenisAnjing()); // Output:  (hasil random)
   console.log(jenisAnjing2()); // Output:  (hasil random)
+
+ 3. no parameters
+const calcAge = () => {
+    return 2020 - 1992;
+}
+console.log(calcAge());
+
+4. implicit  return value
+const calcAge = () => 
+     2020 - 1992;
+console.log(calcAge());
 */
 
   // Pertemuan 12 
