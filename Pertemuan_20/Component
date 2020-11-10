@@ -1,0 +1,34 @@
+Mengenal Ekosistem React
+
+1. Pengenalan React
+React adalah pustaka untuk membangun user interface yang memiliki empat konsep utama:
+berbasis komponen, menggunakan konsep virtual dom, aliran data satu arah, dan menggunakan
+JSX untuk mendeklarasikan UI. Mari kita bahas keempatnya.
+
+Intro component
+React menyarankan kita sebagai developer menggunakan JSX untuk mendeklarasikan
+komponen. Meskipun kita bisa saja tidak menggunakan JSX, namun akan menyebabkan kode
+yang kita susun menjadi panjang atau verbose. Nah untuk menggunakan JSX, kita
+membutuhkan pustaka tambahan yaitu babel/jsx agar dapat ditranslasi dan dimengerti oleh
+browser. Tapi jangan khawatir, kita bisa menggunakan alat bantu create-react-app yang sudah
+mendukung sintaksis JSX.
+
+Kita akan membuat proyek React baru dengan nama "React People" yang berisi daftar orang-
+orang pengguna React. Kita mulai dengan membuat proyek baru.
+
+a. contoh src App.js
+import React from 'react';
+const App = () => {
+return (
+<h1>React People!</h1>
+);
+}
+export default App;
+
+b. contoh src/index.js
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import * as serviceWorker from './serviceWorker';
+ReactDOM.render(
