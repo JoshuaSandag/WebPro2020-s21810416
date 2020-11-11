@@ -1,0 +1,6 @@
+Pertemuan 21 (Props)
+Saatnya kita mempelajari aliran data di React. Untuk mengirimkan data, React menggunakan
+Props yang sekilas sudah kita lihat di bagian sebelumnya. Sedangkan untuk menyimpan data
+saat ini atau current state, di React kita dapat menggunakan state atau local state.
+
+contoh coding ada di folder exercise04-react
