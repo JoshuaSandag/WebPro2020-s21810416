@@ -1,6 +1,38 @@
-Pertemuan 21 (Props)
+Pertemuan 21 (Props) contoh coding ada di folder exercise04-react
+
 Saatnya kita mempelajari aliran data di React. Untuk mengirimkan data, React menggunakan
 Props yang sekilas sudah kita lihat di bagian sebelumnya. Sedangkan untuk menyimpan data
 saat ini atau current state, di React kita dapat menggunakan state atau local state.
 
-contoh coding ada di folder exercise04-react
+1. Mengirimkan Data Dengan Props
+Mirip seperti fungsi, React dapat mengirimkan dan menerima data dengan Props atau properti.
+Misalkan kita memiliki sebuah fungsi untuk mendapatkan informasi pengguna seperti berikut.
+function getUserInfo() {
+// return some info
+}
+Kita bisa menambahkan parameter agar mendapatkan informasi pengguna spesifik berdasarkan
+email atau username seperti berikut
+function getUserInfo(username) {
+// return some info
+}
+getUserInfo('John Doe');
+Menyerupai hal tersebut, kita juga bisa menambahkan parameter ekstra, yang di React disebut
+props.
+<UserInfo />
+Menjadi
+<UserInfo username={'John Doe'} />
+
+Kemudian properti username tersebut dapat kita akses dalam variable props seperti berikut.
+import React from 'react';
+const UserInfo = (props) => {
+return <p>Username: {props.username}</p>;
+}
+
+const App = () => {
+return (
+<>
+<h1>User Information</h1>
+<UserInfo username={'John Doe'} />
+</>
+);
+}
