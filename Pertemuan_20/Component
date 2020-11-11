@@ -1,5 +1,7 @@
 Mengenal Ekosistem React
 
+contoh coding ada di folder exercise04-react
+
 1. Pengenalan React
 React adalah pustaka untuk membangun user interface yang memiliki empat konsep utama:
 berbasis komponen, menggunakan konsep virtual dom, aliran data satu arah, dan menggunakan
