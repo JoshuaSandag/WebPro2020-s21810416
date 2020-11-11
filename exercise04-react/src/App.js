@@ -1,16 +1,21 @@
 import './App.css';
-import Hello from './components/Hello';
-import Intro from './components/Intro';
+import Card from './components/Card';
+import {person} from "./utils/person";
 
 function App() {
   return (
-  <div>  
-    <h1>Basic React joshua </h1>
-    <h2>component Hello</h2>
-    <Hello/>
-    <h2>component Intro</h2>
-    <Intro/>
-  </div>
+    <>
+      {person.map((item) => {
+        return(
+          <Card 
+            name={item.name}
+            institution={item.institution}
+            address={item.address}
+            phoneNumber={item.phoneNumber} 
+              /> 
+            );
+        })}
+    </>
   );
 }
 export default App;
