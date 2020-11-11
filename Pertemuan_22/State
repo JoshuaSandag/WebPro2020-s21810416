@@ -1,0 +1,10 @@
+Contoh coding pertemuan 22 ada di folder exercise04-react
+Pertemuan 22 dengan State
+
+Selain props, komponen dapat memiliki state internal atau state local. 
+State adalah representasi data dari sebuah komponen. 
+Berbeda dengan props yang sifatnya read-only, state dapat diubah.
+Namun perubahan ini hanya dapat dilakukan oleh state bersangkutan.
+Dan untuk menggunakan state, kita sebaiknya mengubah cara pendeklarasian komponen.
+Sebelumnya komponen kita deklarasikan dengan menggunakan fungsi, untuk dapat
+menggunakan state, kita bisa menggunakan class di ES6.
