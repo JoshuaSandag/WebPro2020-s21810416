@@ -2,7 +2,7 @@ import './App.css';
 import Hello from './components/Hello';
 import Intro from './components/Intro';
 
-function Pertemuan_21() {
+function App() {
   return (
   <div>  
     <h1>Basic React joshua </h1>
@@ -13,4 +13,4 @@ function Pertemuan_21() {
   </div>
   );
 }
-export default Pertemuan_21;
+export default App;
