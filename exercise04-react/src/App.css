@@ -38,6 +38,7 @@
 }
 
 
+/* Tugas React People
 body {
   background: #c0ffee;
 }
@@ -68,13 +69,13 @@ body {
 .list-item-power {
   font-weight: bolder;
   color: #ff0000;
-}
+} */
 
-/* Pertemuan 21 style card
-  .card-container{
+
+.card-container{
   border-width: 2px;
   border-color: black;
   border-style: solid;
   margin: 10px;
   padding: 10px;
-} */
+} 

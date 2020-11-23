@@ -4,9 +4,11 @@ const Card = (props) =>{
     return(
         <div className="card-container">
             <p>{props.name}</p>
-            <p>{props.institution}</p>
+            <p>{props.username}</p>
+            <p>{props.company}</p>
             <p>{props.address}</p>
-            <p>{props.phoneNumber}</p>
+            <p>{props.phone}</p>
+            <p>{props.website}</p>
         </div>
     );
 }

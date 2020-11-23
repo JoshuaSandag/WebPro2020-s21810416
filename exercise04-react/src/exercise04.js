@@ -5,6 +5,7 @@ import Intro from './components/Intro';
 function App() {
   return (
   <div>  
+    <h1>Pertemuan 20</h1>
     <h1>Basic React joshua </h1>
     <h2>component Hello</h2>
     <Hello/>
